@@ -216,3 +216,56 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# CTF Cyber Lab — security / secrets (public repository)
+# ============================================================
+
+# Environment variables (.env yuqorida bor; variantlari ham)
+.env.*
+!.env.example
+
+# Private keys va sertifikatlar
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+!*.pub
+
+# VPN konfiguratsiyalari (TryHackMe / HackTheBox .ovpn ichida shaxsiy kalit bor)
+*.ovpn
+*.conf.vpn
+wg*.conf
+
+# Credentials, cookies, password managers
+credentials.json
+credentials.txt
+credentials.y*ml
+secrets.json
+secrets.txt
+secrets.y*ml
+*.secret
+cookies.txt
+*.cookie
+*.kdbx
+.netrc
+.git-credentials
+
+# Shaxsiy / commit qilinmaydigan ish papkalari
+loot/
+private/
+*.local.md
+
+# Burp Suite project fayllari (cookie va so‘rovlarni saqlaydi)
+*.burp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
