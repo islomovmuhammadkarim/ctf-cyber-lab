@@ -264,7 +264,7 @@ O‘zim ko‘targan local lab muhitlari: Docker compose fayllari, VM sozlamalari
 
 | Bo‘lim          | Soni |
 | --------------- | ---- |
-| CTF Challenges  | 0    |
+| CTF Challenges  | 2 (namuna) |
 | Writeups        | 1 (namuna) |
 | Security Tools  | 1    |
 | Scripts         | 3    |
