@@ -265,11 +265,11 @@ O‘zim ko‘targan local lab muhitlari: Docker compose fayllari, VM sozlamalari
 | Bo‘lim          | Soni |
 | --------------- | ---- |
 | CTF Challenges  | 0    |
-| Writeups        | 0    |
-| Security Tools  | 0    |
-| Scripts         | 0    |
-| Notes           | 0    |
-| Labs            | 0    |
+| Writeups        | 1 (namuna) |
+| Security Tools  | 1    |
+| Scripts         | 3    |
+| Notes           | 9    |
+| Labs            | 1    |
 
 > Raqamlar repository'dagi haqiqiy fayllarga mos (oxirgi yangilanish: 2026-09-30). Kontent qo‘shilgach, jadvalni yangilashni unutmang — kelajakda uni avtomatik hisoblaydigan skript qo‘shish rejalashtirilgan.
 

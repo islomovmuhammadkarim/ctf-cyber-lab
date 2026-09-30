@@ -1,0 +1,14 @@
+# OWASP Juice Shop — mashq uchun ataylab zaif (vulnerable) web ilova.
+# Faqat LOCAL, izolyatsiyalangan muhitda ishga tushiring. Internetga OCHMANG.
+#
+# Ishga tushirish:  docker compose up -d
+# Ochish:           http://localhost:3000
+# To‘xtatish:       docker compose down
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: juice-shop
+    # Faqat localhost'ga bog‘lanadi (127.0.0.1) — tashqi tarmoqqa ochilmaydi.
+    ports:
+      - "127.0.0.1:3000:3000"
+    restart: unless-stopped
